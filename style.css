@@ -38,3 +38,51 @@ body{
     z-index: 999;
 }
 
+.hour{
+    position: absolute;
+
+}
+
+.hours{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+
+.hours:before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 160px;
+    background: #c8c8c8;
+    z-index: 10;
+    border-radius: 7px 7px 0 0;
+
+}
+
+.minute{
+    position: absolute;
+}
+
+.minutes{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+
+.minutes:before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    background: #f0bfbf;
+    z-index: 11;
+    border-radius: 7px 7px 0 0;
+
+}
