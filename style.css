@@ -86,3 +86,27 @@ body{
     border-radius: 7px 7px 0 0;
 
 }
+
+.second{
+    position: absolute;
+}
+
+.seconds{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+
+.seconds::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 220px;
+    background: rgb(133, 21, 21);
+    border-radius: 7px 7px 0 0;
+    z-index: 12;
+
+}
