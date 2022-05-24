@@ -57,7 +57,7 @@ body{
     position: absolute;
     width: 8px;
     height: 160px;
-    background: #c8c8c8;
+    background: #ad6767;
     z-index: 10;
     border-radius: 7px 7px 0 0;
 
@@ -81,7 +81,7 @@ body{
     position: absolute;
     width: 5px;
     height: 200px;
-    background: #f0bfbf;
+    background: #c8c8c8;
     z-index: 11;
     border-radius: 7px 7px 0 0;
 
